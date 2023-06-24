@@ -413,3 +413,205 @@
 
 
 
+//МАССИВЫ
+
+
+
+    //const int ROW = 2; // константное число строк массива
+    //const int COL = 4; // константное число колон массива
+
+
+    //int arr[ROW][COL] //двумерный массив, 2х4 (2 строки, 4 колонки )
+    //{ 
+    //    {2,4,55,1}, //первая строка
+    //    {2323,42,2,4} //вторая строка
+    //};
+
+
+
+
+
+
+
+
+    //int visitors = 0; //количество посетителей
+    //int age = 0;      //возраст вводит пользователь
+    //int maxAge = 100; //максимальный возраст
+    //int minAge = 0;   //миниммальный возраст
+    //int middleAge = 0;//средний возраст
+    //int sum = 0;      //сумма посетителей для среднего
+
+    //   cout << "Сколько человек посетило спортзал за день?" << endl;
+    //cin >> visitors;
+
+    //for (int i = 0; i < visitors; i++)
+    //{
+    //    cout << "Введите возраст " << i+1<< "-го посетителя:" << endl;
+    //    cin >> age;
+
+    //    if (age < maxAge)
+    //        maxAge = age;
+    //    if (age > minAge)
+    //        minAge = age;
+
+    //    sum += age;
+    //}
+
+    //middleAge = sum / visitors;
+
+    //cout << "Возраст самого младшего посетителя:" << maxAge << endl;
+    //cout << "Ввозраст самого старшего посетителя:" << minAge << endl;
+    //cout << "Средний возраст посетителей:" << middleAge << endl;
+
+
+
+
+
+    //const int ROWS = 5;                  //количество строк массива
+    //const int COLS = 5;                 //количество колон массива
+
+    //int arr[ROWS][COLS];                //собсна массив
+
+
+    //int choseRow;                       //переменная для выбора строки
+    //choseRow = buf.tm_mday % ROWS;
+    //int sum = 0;
+
+
+    //for (int i = 0; i < ROWS; i++)                  //забиваем массив
+    //{
+    //    for (int j = 0; j < COLS; j++)
+    //    {
+    //        arr[i][j] = i + j;
+    //    }
+
+
+    //}
+    //for (int i = 0; i < ROWS; i++)                  //выводим массив
+    //{
+
+    //    for (int j = 0; j < COLS; j++)
+    //    {
+    //        cout << arr[i][j] << "\t";
+
+    //    }
+    //    cout << endl;
+    //}
+
+    //cout << endl;
+
+
+    //for (int i = 0; i < ROWS; i++)
+    //{
+    //    
+
+    //    
+    //        
+    //        sum += arr[choseRow][i];
+    //        
+
+    //    
+    //}
+    //cout << "summa: " << choseRow + 1 << sum;
+
+
+
+
+
+
+
+
+
+//class Example
+    //{    
+    //private:                //переменная "а видна только в теле класса
+    //    int a;              
+    //
+    //public:         //эти методы видны во всем коде
+    //    int GetA()      //возвращает значение "а" при вызове
+    //    {
+    //        return a;
+    //    }
+    //    void SetA(int newA)     //метод устанавливает значение "а через параметр функции в новую переменную
+    //    {
+    //        a = newA;       // приваивает значение приватнй переменнй через новую переменную
+    //     }
+    //};
+    //
+    //void main()
+    //{
+    //    Example temp, temp1;        // создание обекта (temp это название) класса с прописанными выше методами
+    //    temp.SetA(5);               //через оператор доступа (.) обращаемся к методу класса и вводим аргументы этого метода
+    //    temp1.SetA(10);
+    //
+    //    cout << temp.GetA() << endl
+    //         << temp1.GetA();
+
+
+
+
+
+//class Tiles
+    //{
+    //public:
+    //	string brand;
+    //	int	size_h, size_w; 
+    //	float price;
+    //
+    //	void getData()
+    //	{
+    //		cout << brand << endl
+    //			<<"Price: " << price << endl
+    //			<<"Size: " << size_h << "x" << size_w << endl;		 
+    //	}
+    //
+    //};
+    //
+    //int main()
+    //{
+    //	Tiles firstTile, secondTile;
+    //
+    //	firstTile.brand = "Kerama Marazzi";
+    //	firstTile.price = 100.99;
+    //	firstTile.size_h = 60;
+    //	firstTile.size_w = 60;
+    //	firstTile.getData();
+    //
+    //	cout << endl;
+    //
+    //	secondTile.brand = "Idola";
+    //	secondTile.price = 78.99;
+    //	secondTile.size_h = 30;
+    //	secondTile.size_w = 30;
+    //	secondTile.getData();
+
+
+
+
+//class Vector
+    //{
+    //private:
+    //	double x;
+    //	double y;
+    //	double z;
+    //public:
+    //	Vector() : x(0), y(0), z(0) {};
+    //	Vector(double x, double y, double z) : x(x), y(y), z(z) {};
+    //	void showVec()
+    //	{
+    //		cout << x << y << z << endl;
+    //	}
+    //	int showVecModule()
+    //	{
+    //		return sqrt(x * x + y * y + z * z);
+    //	}
+    //		
+    //};
+    //
+    //
+    //int main()
+    //{
+    //	Vector a(4,4,4);
+    //	a.showVec();
+    //	cout << a.showVecModule();
+    //}
